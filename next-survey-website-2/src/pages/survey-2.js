@@ -180,10 +180,8 @@ export default function Survey1() {
           </ContentText>
 
           <ContentText>
-            Our company, Pear Inc., is testing a new product design for
-            our phone lineup. We will show you the current design, then ask you for feedback.
-            Note: Only focus on the design, and do not take the Operating System (OS) into account. 
-            Simply assume it is running your current phone's OS.
+            Our company, ClearSight Inc., is testing a new product design for
+            our sunglasses lineup. We will show you the current design, then ask you for feedback.
           </ContentText>
 
             <ImageIcon>
@@ -200,7 +198,7 @@ export default function Survey1() {
                 src={Sunglasses2}
                 alt="sunglasses"
                 width={400}
-                height={230}
+                height={180}
               />
             </ImageIcon>
             
@@ -209,7 +207,7 @@ export default function Survey1() {
                 src={Sunglasses3}
                 alt="sunglasses"
                 width={400}
-                height={210}
+                height={180}
               />
             </ImageIcon>
         
@@ -231,7 +229,7 @@ export default function Survey1() {
           </QuestionContainer>
           
           <QuestionContainer>
-            <ContentText>The phone stands out from the other brands available in the market.</ContentText>
+            <ContentText>The sunglasses stands out from the other brands available in the market.</ContentText>
             
             <FormControl>
               <RadioGroup
@@ -248,7 +246,7 @@ export default function Survey1() {
           </QuestionContainer>
 
           <QuestionContainer>
-            <ContentText>Based on the image, the quality of the phone is good.</ContentText>
+            <ContentText>Based on the image, the quality of the sunglasses is good.</ContentText>
             
             <FormControl>
               <RadioGroup
@@ -265,7 +263,7 @@ export default function Survey1() {
           </QuestionContainer>
           
           <QuestionContainer>
-            <ContentText>I would buy the phone if it were available in the market.</ContentText>
+            <ContentText>I would buy the sunglasses if it were available in the market.</ContentText>
             
             <FormControl>
               <RadioGroup
@@ -324,7 +322,7 @@ export default function Survey1() {
 
             <TextField
               id="outlined-multiline-static"
-              label="E.g. The phone is nice, but not my style."
+              label="E.g. The sunglasses is nice, but not my style."
               multiline
               rows={4}
               fullWidth

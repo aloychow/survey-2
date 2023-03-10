@@ -306,7 +306,7 @@ export default function Survey1() {
     const datetime2 = datetime.concat(" 00:00:00")
     
     axios.post(
-      'https://sheet.best/api/sheets/4ce22aa5-a0bb-41f6-8d6f-74242873b607',
+      'https://sheet.best/api/sheets/c256fd56-d6a5-440b-9ca5-0fcd8e95c451',
       {
         "submission_date": datetime2,
         "age": data[0], "gender": data[1],

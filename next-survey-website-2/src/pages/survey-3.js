@@ -174,9 +174,9 @@ export default function Survey1() {
         <SubContainer>
           <h1 style={{ fontSize: "1.5rem", paddingBottom: "1rem"}}>Product Scenario (3D)</h1>
 
-          <ContentText>Below, you will see a 3D rendering of the phone design. You can rotate and zoom in/out of the image. After taking a look at the 3D image, you may answer the following questions.</ContentText>
+          <ContentText>Below, you will see a 3D rendering of the sunglasses design. You can rotate and zoom in/out of the image. After taking a look at the 3D image, you may answer the following questions.</ContentText>
 
-          <ContentText>Please review the phone design. <b>It will take roughly 5 seconds to load.</b></ContentText>
+          <ContentText>Please review the sunglasses design. <b>It will take around 5 seconds to load.</b></ContentText>
 
           <Canvas
             camera={{ 
@@ -190,7 +190,7 @@ export default function Survey1() {
             // rotation={[300,100,100]}
             // camera={{position: [0, 0, 800] }}
             style={{
-              height: "70vh",
+              height: "50vh",
             }}
           >
             <ambientLight intensity={10} />
@@ -209,7 +209,7 @@ export default function Survey1() {
           </Canvas>
 
           <QuestionContainer>
-            <ContentText>The design of the phone appeals to me.</ContentText>
+            <ContentText>The design of the sunglasses appeals to me.</ContentText>
             
             <FormControl>
               <RadioGroup
@@ -226,7 +226,7 @@ export default function Survey1() {
           </QuestionContainer>
           
           <QuestionContainer>
-            <ContentText>The phone stands out from the other brands available in the market.</ContentText>
+            <ContentText>The sunglasses stands out from the other brands available in the market.</ContentText>
             
             <FormControl>
               <RadioGroup
@@ -243,7 +243,7 @@ export default function Survey1() {
           </QuestionContainer>
 
           <QuestionContainer>
-            <ContentText>Based on the image, the quality of the phone is good.</ContentText>
+            <ContentText>Based on the image, the quality of the sunglasses is good.</ContentText>
             
             <FormControl>
               <RadioGroup
@@ -260,7 +260,7 @@ export default function Survey1() {
           </QuestionContainer>
           
           <QuestionContainer>
-            <ContentText>I would buy the phone if it were available in the market.</ContentText>
+            <ContentText>I would buy the sunglasses if it were available in the market.</ContentText>
             
             <FormControl>
               <RadioGroup
@@ -319,7 +319,7 @@ export default function Survey1() {
 
             <TextField
               id="outlined-multiline-static"
-              label="E.g. The phone is nice, but not my style."
+              label="E.g. The sunglasses is nice, but not my style."
               multiline
               rows={4}
               fullWidth
