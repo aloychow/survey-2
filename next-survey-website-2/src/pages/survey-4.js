@@ -171,19 +171,21 @@ export default function Survey1() {
         <SubContainer>
           <h1 style={{ fontSize: "1.5rem", paddingBottom: "1rem"}}>Product Scenario (AR)</h1>
 
-          <ContentText>Below, you will find a link to an augmented reality Instagram filter where you can try out the sunglasses yourself. After trying out the augmented reality filter, you may answer the following questions.</ContentText>
+          <ContentText>Below, you will find a link to an augmented reality Instagram filter where you can test out the phone design yourself. After trying out the augmented reality filter, you may answer the following questions.</ContentText>
 
-          <ContentText>Please review the sunglasses design.</ContentText>
+          <ContentText>Please review the phone design.</ContentText>
+          
+          <ContentText><b>First, face your phone camera away from you. Locate a flat surface and tap the screen. This will initialise a floating phone for you to view in Augmented Reality.</b></ContentText>
 
           <ContentText>
-            <Link style={{textDecoration:"underline", color:"red"}} href="https://www.instagram.com/ar/586644579752457/" rel="noopener noreferrer" target="_blank">
-              Augmented Reality Sunglasses Link
+            <Link style={{textDecoration:"underline", color:"red"}} href="https://www.instagram.com/ar/785498479675956/" rel="noopener noreferrer" target="_blank">
+              Augmented Reality Phone Link
             </Link>
           </ContentText>
 
 
           <QuestionContainer>
-            <ContentText>The design of the sunglasses appeals to me.</ContentText>
+            <ContentText>The design of the phone appeals to me.</ContentText>
             
             <FormControl>
               <RadioGroup
@@ -200,7 +202,7 @@ export default function Survey1() {
           </QuestionContainer>
           
           <QuestionContainer>
-            <ContentText>The sunglasses stands out from the other brands available in the market.</ContentText>
+            <ContentText>The phone stands out from the other brands available in the market.</ContentText>
             
             <FormControl>
               <RadioGroup
@@ -217,7 +219,7 @@ export default function Survey1() {
           </QuestionContainer>
 
           <QuestionContainer>
-            <ContentText>Based on the image, the quality of the sunglasses is good.</ContentText>
+            <ContentText>Based on the image, the quality of the phone is good.</ContentText>
             
             <FormControl>
               <RadioGroup
@@ -234,7 +236,7 @@ export default function Survey1() {
           </QuestionContainer>
           
           <QuestionContainer>
-            <ContentText>I would buy the sunglasses if it were available in the market.</ContentText>
+            <ContentText>I would buy the phone if it were available in the market.</ContentText>
             
             <FormControl>
               <RadioGroup
@@ -293,7 +295,7 @@ export default function Survey1() {
 
             <TextField
               id="outlined-multiline-static"
-              label="E.g. The sunglasses is nice, but not my style."
+              label="E.g. The phone is nice, but not my style."
               multiline
               rows={4}
               fullWidth
